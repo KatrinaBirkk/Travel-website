@@ -1,0 +1,7 @@
+.header__top {
+  display: grid;
+  grid-template-columns: calc(100% - 77px) 1fr 1fr;
+  justify-content: space-between;
+  margin-left: 48px;
+  margin-right: 48px;
+}
