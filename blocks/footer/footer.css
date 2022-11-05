@@ -1,0 +1,35 @@
+.footer {
+  /*display: grid;
+  grid-template-columns: 465px calc(100%-465px);
+  width: 78vw;
+  max-width: 2100px;
+  background-color: blue;
+  margin: 0 auto; */
+
+  display: grid;
+  grid-template-columns: 465px calc(100% - 465px);
+  align-items: center;
+  justify-content: end;
+  max-width: 2100px;
+  margin: 0 auto;
+  padding-top: 92px;
+  padding-bottom: 24px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: auto;
+    width: 100vw;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: start;
+    padding-top: 64px;
+    padding-bottom: 24px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

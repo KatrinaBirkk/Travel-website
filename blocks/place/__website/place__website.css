@@ -5,3 +5,10 @@
   margin: 0;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin: 0 5%;
+    min-height: auto;
+  }
+} ;

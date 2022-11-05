@@ -3,3 +3,11 @@
   margin-bottom: 92px;
   color: white;
 }
+
+/* Для смартфонов 320px и ниже) */
+
+@media screen and (max-width: 320px) {
+  .header__caption {
+    margin: 8px 5% 92px;
+  }
+}

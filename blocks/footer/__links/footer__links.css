@@ -1,0 +1,26 @@
+.footer__links {
+  min-width: 465px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 18px;
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+
+  /*display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 120px));
+  min-width: fit-content;
+  max-width: 700px;
+  column-gap: 10px;
+  box-sizing: border-box;
+  background-color: aquamarine;
+  margin: 0;*/
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    font-size: 24px;
+    font-weight: normal;
+    column-gap: 32px;
+  }
+}

@@ -1,0 +1,11 @@
+.footer__link {
+  max-width: fit-content;
+  margin: 0;
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    min-width: 200px;
+  }
+}
