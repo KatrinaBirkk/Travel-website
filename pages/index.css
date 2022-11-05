@@ -8,6 +8,7 @@
 @import url(/blocks/header/__top/header__top.css);
 @import url(/blocks/header/__link/_language/header__link_language_en.css);
 @import url(/blocks/header/__link/_language/header__link_language_ru.css);
+@import url(/blocks/header/__context/header__context.css);
 @import url(/blocks/header/header.css);
 
 @import url(/blocks/intro/__stat-list/intro__stat-list.css);
@@ -18,6 +19,10 @@
 
 @import url(/blocks/gallery/gallery.css);
 @import url(/blocks/gallery/__square-photo/gallery__square-photo.css);
+@import url(/blocks/gallery/__square-photo/gallery__square-photo_sochi.css);
+@import url(/blocks/gallery/__square-photo/gallery__square-photo_tulsi.css);
+@import url(/blocks/gallery/__square-photo/gallery__square-photo_train.css);
+@import url(/blocks/gallery/__square-photo/gallery__square-photo_tuman.css);
 
 @import url(/blocks/place/place.css);
 @import url(/blocks/place/__image/place__image.css);
@@ -33,4 +38,6 @@
 @import url(/blocks/cover/__subtitle/cover__subtitle.css);
 @import url(/blocks/cover/__title/cover__title.css);
 @import url(/blocks/cover/__text/cover__text.css);
-@import url(/blocks/cover/__picture-box/cover__picture-box.css); ;
+
+@import url(/blocks/container/container.css);
+@import url(/blocks/cover/cover.css);

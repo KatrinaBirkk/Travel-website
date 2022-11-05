@@ -1,9 +1,14 @@
 .gallery {
   display: grid;
+  width: 96%;
+  max-width: 1184px;
+  height: auto;
   gap: 16px;
-  grid-template-columns: repeat(4, minmax(284px, 1fr));
-  grid-template-rows: repeat(3, minmax(213px, 1fr));
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(288px, 1fr)
+  ); /*repeat(4, minmax(284px, 1fr)); */
+  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
   box-sizing: border-box;
-  padding: 0px 48px 48px;
-  margin: 92px auto 92px;
+  margin: 92px auto;
 }

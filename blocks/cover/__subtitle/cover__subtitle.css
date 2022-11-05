@@ -2,10 +2,8 @@
   color: white;
   font-size: 18px;
   line-height: 1.15;
-  margin: 32px auto;
+  margin: -27% auto;
   text-align: center;
   width: 360px;
-  position: absolute;
-  top: 429px;
-  left: 412px;
+  z-index: 1;
 }

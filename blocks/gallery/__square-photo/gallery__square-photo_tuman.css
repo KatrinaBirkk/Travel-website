@@ -1,0 +1,7 @@
+.gallery__square-photo_tuman {
+  background-image: url("../../../images/photo-grid-tuman.jpg");
+  width: 284px;
+  height: 213px;
+  margin: 8px;
+  background-size: cover;
+}

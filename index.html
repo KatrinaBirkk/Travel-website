@@ -14,16 +14,18 @@
           <div class="header__link_language_ru"><a src="">Ru</a></div>
           <div class="header__link_language_en"><a src="">En</a></div>
         </div>
-        <h1 class="header__title">Путешествия по России</h1>
-        <p class="header__subtitle">
-          Настоящая страна не в выпусках новостей, а здесь.
-        </p>
-        <img
-          src="./images/lead-polka.jpg"
-          class="header__main-illustration"
-          alt="Девушка спит на боковой полке, окно вагона. Поверх картинки изображен путь из Пскова в Улан-Удэ и остановки."
-        />
-        <p class="header__caption">Ваша полка - верхняя</p>
+        <div class="header__context">
+          <h1 class="header__title">Путешествия по России</h1>
+          <p class="header__subtitle">
+            Настоящая страна не в выпусках новостей, а здесь.
+          </p>
+          <img
+            src="./images/lead-polka.jpg"
+            class="header__main-illustration"
+            alt="Девушка спит на боковой полке, окно вагона. Поверх картинки изображен путь из Пскова в Улан-Удэ и остановки."
+          />
+          <p class="header__caption">Ваша полка - верхняя</p>
+        </div>
       </header>
 
       <main class="content">
@@ -53,6 +55,23 @@
             <p class="intro__stat-list">Аэропортов 241</p>
           </div>
         </section>
+
+        <!--class="gallery"
+          <div class="container">
+            <div class="gallery__square-photo_train"></div>
+            <div class="gallery__square-photo_tulsi"></div>
+            <div class="gallery__square-photo_tuman"></div>
+            <div class="gallery__square-photo_sochi"></div>
+            <div class="gallery__square-photo_train"></div>
+            <div class="gallery__square-photo_tulsi"></div>
+            <div class="gallery__square-photo_tuman"></div>
+            <div class="gallery__square-photo_sochi"></div>
+            <div class="gallery__square-photo_train"></div>
+            <div class="gallery__square-photo_tulsi"></div>
+            <div class="gallery__square-photo_tuman"></div>
+            <div class="gallery__square-photo_sochi"></div>
+          </div>
+        </section>-->
 
         <section class="gallery">
           <img
@@ -200,7 +219,6 @@
               </p>
             </div>
           </div>
-
           <div class="place">
             <div><h2 class="place__title">Зимний Байкал</h2></div>
             <div class="place__website">
@@ -259,9 +277,18 @@
           </div>
         </section>
 
+       <!-- <section class="cover">
+          <div class="cover__box"></div>
+            <h2 class="cover__title">До Байкала &laquo;на собаках&raquo;</h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
+          </div>
+        </section> -->
+
         <section class="cover">
-          <div class="cover__box">
-            <div class="cover__picture-box"></div>
+          <img src="./images/cover-trains.jpg" class="cover__box">
             <h2 class="cover__title">До Байкала &laquo;на собаках&raquo;</h2>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
@@ -269,6 +296,7 @@
             </p>
           </div>
         </section>
+
       </main>
     </div>
   </body>
