@@ -1,11 +1,7 @@
 .gallery {
   display: grid;
   gap: 16px;
-  /*min-height: calc(100vh-32px); */
-  grid-template-columns: repeat(
-    4,
-    minmax(284px, 1fr)
-  ); /*calc((100%-96px - 3 * 16px) / 4) */
+  grid-template-columns: repeat(4, minmax(284px, 1fr));
   grid-template-rows: repeat(3, minmax(213px, 1fr));
   box-sizing: border-box;
   padding: 0px 48px 48px;

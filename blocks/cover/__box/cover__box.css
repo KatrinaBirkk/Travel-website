@@ -1,0 +1,7 @@
+.cover__box {
+  width: 1184px;
+  height: 740px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}

@@ -1,4 +1,6 @@
-.header {
+.intro {
   display: flex;
   flex-direction: column;
+  width: 690px;
+  margin: 0;
 }
