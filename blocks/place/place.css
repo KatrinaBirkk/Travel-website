@@ -24,18 +24,18 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 671px) {
+@media screen and (min-width: 480px) and (max-width: 800px) {
   .place {
     column-gap: 32px;
     row-gap: 32px;
   }
 }
 
-@media screen and (min-width: 671px) and (max-width: 932px) {
+@media screen and (min-width: 800px) and (max-width: 932px) {
   .place {
     column-gap: 32px;
     row-gap: 32px;
-    margin-left: 3%;
+    margin: 3%;
   }
 }
 
@@ -43,6 +43,6 @@
   .place {
     column-gap: 32px;
     row-gap: 48px;
-    margin-left: 2%;
+    margin: 2%;
   }
 }

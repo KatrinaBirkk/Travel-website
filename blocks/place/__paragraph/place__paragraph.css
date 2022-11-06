@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 671px) {
+@media screen and (min-width: 480px) and (max-width: 675px) {
   .place__paragraph {
     margin: 0 3%;
   }

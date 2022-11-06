@@ -5,5 +5,5 @@
   max-width: 984px;
   margin: 92px auto 92px;
   background-color: beige;
-  height: auto;
+  min-height: auto;
 }

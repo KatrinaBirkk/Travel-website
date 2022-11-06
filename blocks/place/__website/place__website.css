@@ -1,7 +1,7 @@
 .place__website {
   display: flex;
   flex-direction: column;
-  min-height: 76px;
+  min-height: 30px;
   margin: 0;
   justify-content: flex-end;
 }
@@ -13,7 +13,13 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 671px) {
+@media screen and (min-width: 480px) and (max-width: 675px) {
+  .place__website {
+    margin-left: 3%;
+  }
+}
+
+/*@media screen and (min-width: 480px) and (max-width: 685px) {
   .place__website {
     margin-left: 3%;
   }
