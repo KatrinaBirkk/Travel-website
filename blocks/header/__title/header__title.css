@@ -7,10 +7,20 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .header__title {
     font-size: 40px;
     font-weight: bold;
     margin: 48px auto 0;
+    max-width: 288px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .header__title {
+    font-size: 62px;
+    font-weight: bold;
+    margin: 48px auto 0;
+    max-width: 490px;
   }
 }

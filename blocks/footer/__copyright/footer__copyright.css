@@ -6,3 +6,9 @@
   font-size: 16px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 762px) {
+  .footer__copyright {
+    justify-content: start;
+  }
+}

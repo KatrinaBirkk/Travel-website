@@ -1,7 +1,12 @@
 .header__link_language_en {
   margin: 0;
-  align-self: end;
   color: white;
   font-size: 24px;
   font-weight: normal;
+}
+
+@media screen and (max-width: 480px) {
+  .header__link_language_en {
+    font-size: 18px;
+  }
 }

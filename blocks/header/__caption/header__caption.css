@@ -6,8 +6,20 @@
 
 /* Для смартфонов 320px и ниже) */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .header__caption {
-    margin: 8px 5% 92px;
+    margin: 8px 5% 64px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .header__caption {
+    margin: 8px 3% 88px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  .header__caption {
+    margin: 8px 2% 92px;
   }
 }
