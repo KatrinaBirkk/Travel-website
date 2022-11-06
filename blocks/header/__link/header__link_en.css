@@ -1,13 +1,12 @@
-.header__link_language_ru {
+.header__link_en {
   margin: 0;
   color: white;
   font-size: 24px;
   font-weight: normal;
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 480px) {
-  .header__link_language_ru {
+  .header__link_en {
     font-size: 18px;
   }
 }
