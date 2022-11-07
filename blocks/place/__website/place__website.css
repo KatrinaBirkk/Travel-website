@@ -9,7 +9,6 @@
 @media screen and (max-width: 480px) {
   .place__website {
     margin: 0 5%;
-    min-height: auto;
   }
 }
 

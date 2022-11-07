@@ -1,7 +1,6 @@
-.header__main-illustration {
+.lead__main-illustration {
   width: 100%;
   max-width: 984px;
   min-width: 300px;
-  min-height: auto;
   margin: 0 auto;
 }

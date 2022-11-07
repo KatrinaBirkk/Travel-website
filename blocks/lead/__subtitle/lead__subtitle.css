@@ -1,4 +1,4 @@
-.header__subtitle {
+.lead__subtitle {
   color: white;
   margin-top: 32px;
   margin-left: auto;
@@ -10,24 +10,24 @@
   max-width: 640px;
 }
 
-@media screen and (max-width: 480px) {
-  .header__subtitle {
-    font-size: 16px;
-    margin-top: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    width: 70%;
-  }
-}
-
 @media screen and (min-width: 480px) and (max-width: 768px) {
-  .header__subtitle {
+  .lead__subtitle {
     font-size: 18px;
     margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
     width: 380px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lead__subtitle {
+    font-size: 16px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 70%;
   }
 }

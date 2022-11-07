@@ -6,19 +6,18 @@
   line-height: 1.1;
   margin: 0 auto;
   max-width: 560px;
-  min-height: auto;
-}
-
-@media screen and (max-width: 760px) {
-  .cover__title {
-    font-size: 32px;
-    max-width: 75%;
-  }
 }
 
 @media screen and (min-width: 520px) and (max-width: 760px) {
   .cover__title {
     font-size: 42px;
     max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .cover__title {
+    font-size: 32px;
+    max-width: 75%;
   }
 }

@@ -1,12 +1,13 @@
-.header__link_en {
-  margin: 0;
+.header__link {
   color: white;
   font-size: 24px;
   font-weight: normal;
+  margin: 0 0 0 18px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {
-  .header__link_en {
+  .header__link {
     font-size: 18px;
   }
 }
