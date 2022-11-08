@@ -3,4 +3,6 @@
   color: #aaaaaa;
   font-size: 12px;
   font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

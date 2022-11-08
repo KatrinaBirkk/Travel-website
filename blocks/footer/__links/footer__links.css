@@ -1,16 +1,12 @@
 .footer__links {
-  min-width: 280px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  column-gap: 18px;
+  display: flex;
   color: white;
   font-size: 16px;
-  font-weight: normal;
+  line-height: 1.12;
 }
 
 @media screen and (max-width: 762px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
     font-size: 24px;
   }

@@ -5,3 +5,20 @@
   max-width: 984px;
   width: 100%;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1028px) {
+  .places {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 670px) and (max-width: 768px) {
+  .places {
+    width: 94%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 670px) {
+  .places {
+  }
+}

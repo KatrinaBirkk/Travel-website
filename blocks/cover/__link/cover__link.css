@@ -35,10 +35,9 @@
 
 .cover__link:hover::after {
   opacity: 1;
-  cursor: pointer;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1028px) {
   .cover__link {
     width: 1024px;
     height: 640px;
@@ -61,7 +60,7 @@
 
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .cover__link {
-    width: 3200px;
+    width: 320px;
     height: 200px;
   }
 }

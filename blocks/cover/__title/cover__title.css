@@ -1,4 +1,5 @@
 .cover__title {
+  position: relative;
   color: white;
   text-align: center;
   font-size: 72px;
@@ -7,6 +8,7 @@
   max-width: 560px;
   width: 100%;
   margin: 245px auto 0;
+  z-index: 2;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1238px) {
