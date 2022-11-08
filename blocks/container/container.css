@@ -1,8 +1,0 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 96%;
-  max-width: 984px;
-  margin: 92px auto 92px;
-  background-color: beige;
-}

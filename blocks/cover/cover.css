@@ -1,8 +1,7 @@
 .cover {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1184px));
-  grid-template-rows: 2;
+  display: flex;
   margin: 0 auto;
-  max-width: 1184px;
   align-items: center;
+  max-width: 1184px;
+  min-width: 320px;
 }

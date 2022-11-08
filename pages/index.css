@@ -1,5 +1,5 @@
-@import url(../fonts/fonts.css);
-@import url(../styles/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../vendor/normalize.css);
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
@@ -19,14 +19,9 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/introduction/introduction.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__square-photo/gallery__square-photo.css);
-@import url(../blocks/gallery/__square-photo/gallery__square-photo_sochi.css);
-@import url(../blocks/gallery/__square-photo/gallery__square-photo_tulsi.css);
-@import url(../blocks/gallery/__square-photo/gallery__square-photo_train.css);
-@import url(../blocks/gallery/__square-photo/gallery__square-photo_tuman.css);
 
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
@@ -38,12 +33,9 @@
 
 @import url(../blocks/places/places.css);
 
-@import url(../blocks/cover/__box/cover__box.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__text/cover__text.css);
-
-@import url(../blocks/container/container.css);
 @import url(../blocks/cover/cover.css);
 
 @import url(../blocks/footer/__copyright/footer__copyright.css);
