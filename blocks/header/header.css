@@ -19,7 +19,6 @@
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .header {
-    /*grid-template-columns: calc(100% - 80px) 1fr 1fr; */
     margin-left: 24px;
     margin-right: 24px;
   }

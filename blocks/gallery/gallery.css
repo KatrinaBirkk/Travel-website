@@ -15,17 +15,20 @@
 @media screen and (min-width: 770px) and (max-width: 1028px) {
   .gallery {
     max-width: 928px;
+    gap: 14px;
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 769px) {
   .gallery {
     width: 94%;
+    gap: 16px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .gallery {
-    width: 88%;
+    width: 100%;
+    gap: 12px;
   }
 }
