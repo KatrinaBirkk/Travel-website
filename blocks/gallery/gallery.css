@@ -28,7 +28,8 @@
 
 @media screen and (max-width: 480px) {
   .gallery {
-    width: 100%;
+    width: 90%;
     gap: 12px;
+    margin: 64px auto;
   }
 }

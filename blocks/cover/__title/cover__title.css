@@ -7,7 +7,7 @@
   line-height: 1.1;
   max-width: 560px;
   width: 100%;
-  margin: 245px auto 0;
+  margin: 0 auto;
   z-index: 2;
 }
 
@@ -34,7 +34,7 @@
 @media screen and (max-width: 480px) {
   .cover__title {
     font-size: 32px;
-    max-width: 288px;
+    max-width: 255px;
     margin: 33px auto 0;
   }
 }

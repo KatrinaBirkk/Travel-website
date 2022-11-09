@@ -4,20 +4,14 @@
   justify-content: flex-end;
   align-content: center;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 1.14;
-}
-
-@media screen and (min-width: 763px) and (max-width: 1028px) {
-  .footer__copyright {
-    font-size: 14px;
-  }
 }
 
 @media screen and (max-width: 762px) {
   .footer__copyright {
     justify-content: start;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 }

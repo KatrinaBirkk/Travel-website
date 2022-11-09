@@ -3,6 +3,11 @@
   font-weight: normal;
   line-height: 1.16;
   margin: 0 0 0 18px;
+  text-decoration: none;
+}
+
+.header__link:first-child {
+  margin: 0;
 }
 
 @media screen and (max-width: 480px) {

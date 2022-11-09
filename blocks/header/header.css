@@ -1,7 +1,7 @@
 .header {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: calc(100% - 95px) 1fr 1fr;
+  grid-template-columns: calc(100% - 77px) 1fr 1fr;
   justify-content: space-between;
   margin-left: 48px;
   margin-right: 48px;
@@ -11,7 +11,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1020px) {
   .header {
-    grid-template-columns: calc(100% - 95px) 1fr 1fr;
     margin-left: 3%;
     margin-right: 3%;
   }
@@ -26,7 +25,7 @@
 
 @media screen and (max-width: 480px) {
   .header {
-    grid-template-columns: calc(100% - 80px) 1fr 1fr;
+    grid-template-columns: calc(100% - 62px) 1fr 1fr;
     margin-left: 16px;
     margin-right: 16px;
     padding-top: 16px;

@@ -1,9 +1,11 @@
 .place__paragraph {
   font-size: 18px;
   font-weight: normal;
-  line-height: 1.6;
+  line-height: 1.63;
   color: white;
-  margin: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 26px;
   list-style: none;
 }
@@ -20,12 +22,12 @@
 
 @media screen and (min-width: 480px) and (max-width: 675px) {
   .place__paragraph {
-    margin: 0 3%;
+    margin: 0 3% 25px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .place__paragraph {
-    margin: 0 5%;
+    margin: 0 5% 25px;
   }
 }
