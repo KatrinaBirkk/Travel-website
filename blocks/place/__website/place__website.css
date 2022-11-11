@@ -1,4 +1,4 @@
-.website {
+.place__website {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (min-width: 480px) and (max-width: 675px) {
-  .website {
+  .place__website {
     margin-left: 3%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .website {
+  .place__website {
     margin: 0 5%;
   }
 }
